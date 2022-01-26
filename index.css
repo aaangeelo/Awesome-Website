@@ -66,13 +66,14 @@
 }
 
 .butt-1 {
-    background-color: #3882f6;
+    background-color: #5c44fa;
     border: none;
     border-radius: 10px;
     padding: 7px 30px;
 }
 
-.butt-1 a {
+.butt-1 a,
+.butt-2 a {
     text-decoration: none;
     font-size: 16px;
     color: white;
@@ -90,18 +91,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 50px 0 100px 0;
 }
 
 .head-2 {
     font-size: 36px;
     color: #1f2937;
+    margin-bottom: 50px
 }
 
 .image-group {
     list-style-type: none;
     display: flex;
-    gap: 48px;
+    gap: 24px;
 }
 
 .image-group li {
@@ -110,14 +112,75 @@
     align-items: center;
     text-align: center;
     width: 170px;
+    font-size: 16px;
+    color: #5f5f5f;
 }
 
 li .img-2 {
-    border: black solid 1px;
-    height: 180px;
+    border-radius: 10px;
+    height: 170px;
     width: 170px;
+    margin-bottom: 10px;
 }
 
 .third-wrapper {
     background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.luv-wrapper {
+    padding: 0 75px
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.testimonial {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.fourth-wrapper {
+    margin: 100px 200px;
+    padding: 50px 0;
+    border-radius: 10px;
+    background-color: #5c44fa;
+}
+
+.card {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-3 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+.subtitle-2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.butt-2 {
+    background-color: #5c44fa;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 7px 30px
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #1f2937;
+    text-align: center;
+    font-size: 18px;
+    color: #f9faf8;
 }
