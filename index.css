@@ -85,11 +85,12 @@
     border-radius: 10px;
 }
 
-.secon-second-wrapper {
+.second-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
 
 .head-2 {
@@ -100,7 +101,7 @@
 .image-group {
     list-style-type: none;
     display: flex;
-    gap: 24px;
+    gap: 48px;
 }
 
 .image-group li {
